@@ -1,0 +1,37 @@
+@media (max-width:767px)
+{
+    .navbar-inverse .navbar-nav > li > a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .price_box p {
+    margin-right: 200px;
+    margin-left:  200px; 
+    }
+    
+    .subscribe .form-control,.subscribe button
+    {
+     border-radius: 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+    .price_box p {
+    margin-right: 120px;
+    margin-left:  120px; 
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px)
+{
+ .price_box p {
+    margin-right: 175px;
+    margin-left:  175px; 
+    }
+}
+
+@media (max-width:1200px)
+{
+    
+}
